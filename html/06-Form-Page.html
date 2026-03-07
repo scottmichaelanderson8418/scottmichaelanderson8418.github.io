@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>Form Page</title>
+	<!-- Metadata of the document -->
+
+	<!-- Metadata of the document -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+	<link href="/css/tf-reset.css" rel="stylesheet" />
+	<link href="/css/01-Typography.css" rel="stylesheet" />
+	<link href="/css/02-General-Layout.css" rel="stylesheet" />
+	<link href="/css/03-Mobile-Layout.css" rel="stylesheet" />
+	<link href="/css/04-Tablet-Layout.css" rel="stylesheet" />
+	<link href="/css/05-Desktop-Layout.css" rel="stylesheet" />
+	<link href="/css/06-Grid-Elements.css" rel="stylesheet" />
+	<link href="/css/08-Clock-Format.css" rel="stylesheet" />
+	<link href="/css/09-Web-Form-Style.css" rel="stylesheet" />
+	<link href="/css/10-Bar-Soap-Desktop.css" rel="stylesheet" />
+	<link href="/css/10-Bar-Soap-Mobile.css" rel="stylesheet" />
+	<script src="/js/DropDownContents.js" defer></script>
+	<script src="/js/BarSoapGallery.js" defer></script>
+	<script src="/js/banner.js" defer></script>
+</head>
+
+<body>
+	<header class="buttons">
+		<a id="banner1" href="../index.html"><img id="banner" src="../SOAP_PICS/BANNERS_JPG/BANNERS_12.jpeg"
+				alt="Scrublands Apothecary" /></a>
+
+		<nav class='horizontal'>
+			<ul class='horizontal-mainmenu'>
+				<li>
+					<a href="../index.html" class='horizontal-mainmenu-dropdown'>Home</a>
+				</li>
+				<!-- href="/html/02-Product-List.html" -->
+				<li>
+
+					<a id="menuButton" class='horizontal-mainmenu-dropdown'>Product
+						List</a>
+
+					<ul id="dropDownMenu" class='horizontal-mainmenu-dropdown-dropdown-contents'>
+						<li><a href="/html/03-Bar-Soap.html">Bar Soap</a></li>
+						<li><a href="/html/04-Liquid-Soap.html">Liquid Soap</a></li>
+						<li><a href="/html/05-Dog-Shampoo.html">Dog Shampoo</a></li>
+					</ul>
+				</li>
+
+				<li><a href="/html/06-Form-Page.html" class='horizontal-mainmenu-dropdown'>Forms
+						Page</a>
+				</li>
+
+				<li><a href="/html/10-About-Us.html" class='horizontal-mainmenu-dropdown'>About Us
+					</a>
+				</li>
+
+				<li><a href="/html/09-Contact-Us.html" class='horizontal-mainmenu-dropdown'>Contact
+						Us
+					</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section class="flex-container-body-01">
+		<div>
+			<h1>Form Page</h1>
+		</div>
+			<div>
+					<a href="index.html"> <img src="../SOAP_PICS/LOGOS_JPG/transparentlogo.png" alt="Scrub Logo" /></a>
+				</div>
+
+		<div class="slogan">
+			<h2>&quot;Premium soap for your priceless skin&quot;</h2 </div>
+	</section>
+	<div class="container">
+		<fieldset>
+			<form class="formGroup">
+				<div>
+					<label for="fname"> First Name: </label><br />
+					<input type="text" id="fname" name="fname" /><br />
+				</div>
+				<div>
+					<label for="lname"> Last Name: </label><br />
+					<input type="text" id="lname" name="lname" /><br />
+				</div>
+				<div>
+					<label for="email"> Email: </label><br />
+					<input type="email" id="email" name="custName" /><br />
+				</div>
+
+				<div>
+					<label for="country">Country</label><br />
+					<select id="country" name="country">
+						<option value=""></option>
+						<option value="usa">USA</option>
+						<option value="can">Canada</option>
+						<option value="sa">South America</option>
+						<option value="other">other</option>
+					</select>
+				</div>
+
+				<div>
+					<label for="creditCard"> Credit Card Type </label><br />
+					<select class="creditCard" name="creditCard">
+						<option value=""></option>
+						<option value="americanExpress">American Express</option>
+						<option value="visa">Visa</option>
+						<option value="discover">Discover</option>
+					</select>
+				</div>
+
+				<div>
+					<label for="creditCardNumber"> Credit Card Number </label><br />
+					<input type="number" id="creditCardNumber" name="creditCardNumber"
+						pattern="  ^(?:4[0-9]{12}(?:[0-9]{3})?|[25][1-7][0-9]{14}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|(?:2131|1800|35\d{3})\d{11})$"
+						required /><br />
+				</div>
+
+				<div>
+					<label for="cscNumber"> CSC Number </label><br />
+					<input type="text" id="cscNumber" name="cscNumber" pattern="^\d{3}$" required /><br />
+				</div>
+				<div>
+					<label for="cardMonth"> Card Month </label><br />
+					<select name="cardMonth" id="cardMonth" required>
+						<option value="">Month</option>
+						<option value="January (01)">January (01)</option>
+						<option value="February (02)">February (02)</option>
+						<option value="March (03)">March (03)</option>
+						<option value="April (04)">April (04)</option>
+						<option value="May (05)">May (05)</option>
+						<option value="June (06)">June (06)</option>
+						<option value="July (07)">July (07)</option>
+						<option value="August (08)">August (08)</option>
+						<option value="September (09)">September (09)</option>
+						<option value="October (10)">October (10)</option>
+						<option value="November (11)">November (11)</option>
+						<option value="December (12)">December (12)</option>
+					</select>
+				</div>
+				<div>
+					<label for="cardYear"> Card Year </label><br />
+					<select name="cardYear" id="cardYear">
+						<option value="">Year</option>
+						<option value="2020">2020</option>
+						<option value="2020">2021</option>
+						<option value="2020">2022</option>
+						<option value="2020">2023</option>
+						<option value="2020">2024</option>
+					</select>
+				</div>
+
+				<div class="submitButton">
+					<input type="submit" value="Submit Payment" />
+				</div>
+			</form>
+		</fieldset>
+
+
+		<br>
+		<br>
+		<div class="text-item-footer">
+			<p>&copy; 2024 Scrublands Apothecary. All rights reserved.</p>
+		</div>
+		</section>
+	</div>
+	</div>
+	<br>
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+</body>
+
+</html>

@@ -1,0 +1,893 @@
+@charset "utf-8";
+
+/* ===============================
+
+Mobile Styles: 0px to 480px
+===============================
+*/
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+	html {
+		background-image: url("../SOAP_PICS/HTML_PICS/background.jpeg");
+		background-position: center;
+		background-position: center;
+		display: flex;
+		font-family: Verdana, Geneva, sans-serif;
+		font-size: 15px;
+		height: auto;
+		margin: auto;
+		padding: auto;
+		width: 100%;
+	}
+
+	body {
+		background-color: rgb(73, 58, 49, 0.8);
+		background-size: cover;
+		color: white;
+		font-size: 1.5rem;
+		height: auto;
+		margin: auto auto;
+		margin: auto;
+		max-width: 100%;
+		position: relative;
+		z-index: 1;
+		/* border: solid 5px yellow; */
+	}
+
+	/* Navigation Menu aka Header Menus*/
+	/* ---------------------------------------------------- */
+
+	ul.horizontal-mainmenu {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		min-width: 100%;
+		max-width: 100%;
+		min-height: 100%;
+		background: transparent;
+	}
+
+	ul.horizontal-mainmenu li {
+		display: none;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+
+	ul.horizontal-mainmenu li a {
+		border-radius: 0.125rem;
+		box-shadow:
+			rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+			rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+			rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+		color: white;
+		display: block;
+		margin: auto;
+		padding: auto;
+		position: relative;
+		text-align: center !important;
+		text-transform: uppercase;
+		min-width: 100%;
+		max-width: 100%;
+		min-height: 100%;
+	}
+
+	/* Web form webpage  */
+	div.formGroup {
+		width: 75%;
+	}
+
+	a.horizontal-mainmenu-dropdown {
+		display: flex;
+		font-size: 6vw;
+		line-height: 1rem;
+		padding: 0;
+		max-width: 100%;
+		min-height: 100%;
+		min-width: 100%;
+		padding: none;
+		position: relative;
+		text-align: center;
+	}
+
+	ul.horizontal-mainmenu-dropdown-dropdown-contents.show {
+		overflow: hidden;
+		background-color: rgb(73, 58, 49);
+		border: none;
+		box-shadow: none;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		font-size: 6vw;
+		min-width: 100%;
+		max-width: 100%;
+		min-height: 100%;
+		position: absolute;
+		z-index: 10;
+	}
+
+	ul.horizontal-mainmenu-dropdown-dropdown-contents {
+		background-color: rgb(73, 58, 49);
+		border: none;
+		box-shadow: none;
+		display: none;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		font-size: 3rem;
+		min-width: 100%;
+		max-width: 100%;
+		min-height: 100%;
+		position: absolute;
+		z-index: 10;
+	}
+
+	ul.horizontal-mainmenu-dropdown-dropdown-contents li {
+		border-radius: 0.5rem;
+		display: block;
+		min-width: 100%;
+		max-width: 100%;
+		min-height: 100%;
+		position: relative;
+		z-index: 10;
+	}
+
+	ul.horizontal-mainmenu-dropdown-dropdown-contents li a {
+		color: white;
+		display: block;
+		min-width: 100%;
+		max-width: 100%;
+		min-height: 100%;
+		position: relative;
+		z-index: 15;
+	}
+
+	ul.horizontal-mainmenu li {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		font-size: 6vw;
+		line-height: normal;
+		padding: 0;
+		min-width: 100%;
+		max-width: 100%;
+		min-height: 100%;
+		padding: none;
+		position: relative;
+		text-align: center;
+	}
+
+	ul.horizontal-mainmenu li a {
+		font-size: 6vw;
+		line-height: normal;
+		padding: 0;
+		padding: 2rem;
+		position: relative;
+		text-align: center;
+		max-width: 100%;
+		min-height: 100%;
+	}
+
+	ul.horizontal-mainmenu {
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: center;
+		flex-direction: column;
+		min-width: 100%;
+		max-width: 100%;
+		min-height: 100%;
+		text-align: center;
+	}
+
+	ul.horizontal-mainmenu li {
+		display: block;
+		min-width: 100%;
+		max-width: 100%;
+		min-height: 100%;
+	}
+
+	a.horizontal-mainmenu-dropdown:link,
+	a#menuButton {
+		background-color: rgb(73, 58, 49, 0.5);
+		color: white;
+		font-size: 6vw;
+		padding: none;
+		text-align: center;
+		z-index: 2;
+		min-width: 100%;
+		max-width: 100%;
+		min-height: 100%;
+		display: block;
+	}
+
+	/* ---------------------------------------------------- */
+	/* Bar Soap HTML PAGE */
+	section.flexContainerBody-BarSoap {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		flex-grow: 0;
+		justify-content: center;
+		line-height: normal;
+		padding: 0;
+		padding: none;
+	}
+	section.flexContainerBody-BarSoap article {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		/* border: solid 5px red; */
+	}
+	section.flexContainerBody-BarSoap article div a img {
+		box-shadow:
+			0 10px 15px 0 rgba(0, 0, 0, 0.2),
+			0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		/* width: clamp(30%, 50%, 80%); */
+
+		border-radius: 2.5rem;
+		min-width: 50%;
+		max-width: 50%;
+	}
+
+	section.flexContainerBody-BarSoap article div h2 {
+		flex-grow: 0;
+		padding: 0;
+		padding: 2rem;
+		font-size: 5rem;
+		text-align: center;
+	}
+
+	div.flexContainerBody-BarSoap-Article h2 {
+		font-size: 0.5rem;
+	}
+	div.flexContainerBody-BarSoap-Article h2 {
+		font-size: 1rem;
+	}
+
+	/* Liquid Soap */
+
+	section.flexContainerBody-LiquidSoap {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		flex-grow: 0;
+		padding: 0;
+		padding: none;
+		line-height: normal;
+	}
+
+	section.flexContainerBody-LiquidSoap article {
+		display: flex;
+		justify-content: center;
+		flex-grow: 0;
+		text-align: center;
+	}
+
+	section.flexContainerBody-LiquidSoap article {
+		display: block;
+		flex-grow: 0;
+		position: relative;
+		min-width: 100%;
+		height: auto;
+		padding: 0;
+		margin-top: 5rem;
+		text-align: center;
+	}
+
+	section.flexContainerBody-LiquidSoap article div a img {
+		flex-grow: 0;
+		max-width: 90%;
+		height: auto;
+		margin-top: 5rem;
+		text-align: center;
+		border-radius: 2.5rem;
+	}
+
+	section.flexContainerBody-LiquidSoap article div h2 {
+		-webkit-text-stroke-width: 1.5px;
+		-webkit-text-stroke-color: white;
+		min-width: 100%;
+		font-size: 4rem;
+		font-family: TwoShotsCleanFull;
+		font-weight: normal;
+		line-height: normal;
+		color: #ffffff;
+		text-align: center;
+		text-shadow: 5px 5px 10px #201f1f;
+		letter-spacing: 5px;
+		padding: 0;
+	}
+	section.flexContainerBody-LiquidSoap article div {
+		margin-top: 5rem;
+	}
+
+	/* HomePage */
+
+	div.text-item > p {
+		margin-top: 1rem;
+		margin-bottom: 0px;
+		line-height: 3rem;
+		font-size: 1rem;
+	}
+
+	section.flex-container-body-02 > div > h1 {
+		-webkit-text-stroke-width: 1.5px;
+		-webkit-text-stroke-color: white;
+		min-width: 100%;
+		font-size: 2rem;
+		font-family: TwoShotsCleanFull;
+		font-weight: normal;
+		line-height: normal;
+		color: #ffffff;
+		text-align: center;
+		text-shadow: 5px 5px 10px #201f1f;
+		letter-spacing: 5px; /* Adjust the value as needed */
+		padding: 0;
+	}
+	div.figure-container-01 {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		justify-content: center;
+		/* margin: 1rem; */
+	}
+	div.figure-container-01 > div.text-item {
+		text-align: left;
+	}
+
+	div.figure-container-01 div.text-item p {
+		min-height: 100%;
+		line-height: 3rem;
+		text-align: left;
+		padding: 0;
+		padding: none;
+		text-align: left;
+	}
+
+	div.image-item {
+		display: block;
+		max-width: 100%;
+		min-height: 100%;
+		margin: auto;
+		padding: auto;
+	}
+	div.figure-container-01 div.image-item figure img {
+		box-shadow:
+			0px 50px 100px -20px rgba(50, 50, 93, 0.25),
+			0px 30px 60px -30px rgba(0, 0, 0, 0.3),
+			inset 0px -2px 6px 0px rgba(10, 37, 64, 0.35);
+		position: relative;
+		clear: both;
+		max-width: 100%;
+		min-height: 100%;
+		height: auto;
+		padding: 0;
+		padding: none;
+		border-radius: 1em;
+		display: block;
+	}
+
+	div.figure-caption > figcaption {
+		position: relative;
+		clear: both;
+		padding: 0;
+		padding: 2rem;
+		background-color: rgba(88, 75, 75, 0.5); /* Optional: Add a background color */
+		border-radius: 0.5rem;
+		text-align: center;
+		max-width: 100%;
+		min-height: 100%;
+	}
+
+	/* ------------------------------- */
+	div.figure-container-02 {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+	div.figure-container-02 > div.text-item-02 {
+		order: 2;
+		flex-grow: 1;
+		text-align: left;
+	}
+
+	div.figure-container-02 div.text-item-02 p {
+		max-width: 100%;
+		min-height: 100%;
+		font-size: 1rem;
+		line-height: 3rem;
+		text-align: left;
+	}
+
+	div.image-item-02 {
+		order: 1;
+		max-width: 100%;
+		min-height: 100%;
+	}
+	div.figure-container-02 div.image-item-02 figure img {
+		box-shadow:
+			0px 50px 100px -20px rgba(50, 50, 93, 0.25),
+			0px 30px 60px -30px rgba(0, 0, 0, 0.3),
+			inset 0px -2px 6px 0px rgba(10, 37, 64, 0.35);
+		position: relative;
+		clear: both;
+		width: 100%;
+		height: auto;
+		padding: 0;
+		padding: none;
+		border-radius: 1em;
+	}
+
+	div.figure-caption > figcaption {
+		position: relative;
+		clear: both;
+		padding: 0;
+		padding: 25px;
+		background-color: rgba(88, 75, 75, 0.5); /* Optional: Add a background color */
+		border-radius: 0.5em;
+		text-align: center;
+	}
+
+	div.figure-container-01 .page-title > div > h1 {
+		-webkit-text-stroke-width: 0.8px;
+		-webkit-text-stroke-color: white;
+		min-width: 100%;
+		margin: auto;
+		font-size: 12rem;
+		font-family: TwoShotsCleanFull;
+		font-weight: normal;
+		line-height: normal;
+		color: #b43b07;
+		text-align: center;
+		text-shadow: 5px 5px 10px #201f1f;
+	}
+	div.figure-container-01 div.text-item h1 {
+		-webkit-text-stroke-width: 0.3px;
+		-webkit-text-stroke-color: white;
+		min-width: 100%;
+		font-size: 2rem;
+		font-family: TwoShotsCleanFull;
+		font-weight: normal;
+		line-height: normal;
+		color: #b43b07;
+		text-align: center;
+		text-shadow: 5px 5px 10px #201f1f;
+	}
+	.page-title > div > h1 {
+		-webkit-text-stroke-width: 0.8px;
+		-webkit-text-stroke-color: white;
+		min-width: 100%;
+		font-size: 15rem;
+		font-family: TwoShotsCleanFull;
+		font-weight: normal;
+		line-height: normal;
+		color: #b43b07;
+		text-align: center;
+		text-shadow: 5px 5px 10px #201f1f;
+	}
+
+	div.text-item-footer > p {
+		font-size: 1rem;
+		text-align: center;
+	}
+
+	/* ------------------------Product Page --------------------*/
+
+	section.flex-container-body-01 > div > h1 {
+		-webkit-text-stroke-color: white;
+		-webkit-text-stroke-width: 0.8px;
+		color: white;
+		font-family: TwoShotsCleanFull;
+		font-size: 3.5rem;
+		font-weight: normal;
+		line-height: normal;
+		padding: 0;
+		padding: 0;
+		min-width: 100%;
+		padding: none;
+		padding: none;
+		text-align: center;
+		text-shadow: 5px 5px 10px #201f1f;
+		z-index: 3;
+	}
+
+	section.flex-container-body-01 > div.slogan h2 {
+		-webkit-text-stroke-width: 0.5px;
+		-webkit-text-stroke-color: white;
+
+		padding: 0;
+		padding: none;
+		font-size: 2.5rem;
+		font-family: TwoShotsCleanFull;
+		font-weight: normal;
+		line-height: normal;
+		color: white;
+		text-align: center;
+		text-shadow: 5px 5px 10px #201f1f;
+		max-width: 100%;
+		min-height: 100%;
+	}
+	section.flex-container-body-01 > div > h2 {
+		-webkit-text-stroke-color: white;
+		-webkit-text-stroke-width: 0.5px;
+		color: white;
+
+		font-family: TwoShotsCleanFull;
+		font-size: 3.5rem;
+		font-weight: normal;
+		line-height: normal;
+		max-width: 100%;
+		min-height: 100%;
+
+		text-align: center;
+		text-shadow: 5px 5px 10px #201f1f;
+		margin-bottom: 2rem;
+		padding: none;
+	}
+	section.flex-container-body-01 div a img {
+		/* border-radius: 1rem;
+		box-shadow: 0px 50px 100px -20px rgba(50, 50, 93, 0.25), 0px 30px 60px -30px rgba(0, 0, 0, 0.3), inset 0px -2px 6px 0px rgba(10, 37, 64, 0.35); */
+		display: block;
+		height: auto;
+		margin: auto;
+		padding: 0;
+		max-width: 30%;
+		padding: none;
+	}
+
+	section.flex-container-body-01 div.product-page-image > a > img {
+		border-radius: 1rem;
+		box-shadow:
+			0px 50px 100px -20px rgba(50, 50, 93, 0.25),
+			0px 30px 60px -30px rgba(0, 0, 0, 0.3),
+			inset 0px -2px 6px 0px rgba(10, 37, 64, 0.35);
+		display: block;
+		height: auto;
+		margin: auto;
+		max-width: 60%;
+		min-width: 60%;
+	}
+
+	/* Product list */
+
+	section.flex-container-body-01 > div {
+		margin-top: 2rem;
+	}
+
+	div.grid-item {
+		max-width: 100%;
+		min-height: 100%;
+	}
+
+	div.container {
+		z-index: 2;
+		margin: 1rem;
+		max-width: 100%;
+		min-height: 100%;
+	}
+
+	/* Bar Soap Page */
+	div.container div.grid-container-bar-soap {
+		display: grid;
+		grid-template-columns: auto;
+		padding: 0;
+		gap: 1rem;
+		max-width: 100%;
+		min-height: 100%;
+		padding: none;
+		padding: 0;
+	}
+
+	div.grid-item {
+		text-align: center;
+		padding: none;
+		padding: 0;
+		font-size: 1.5rem;
+		max-width: 100%;
+		min-height: 100%;
+	}
+	div.grid-item div a img {
+		text-align: center;
+		padding: none;
+		padding: 0;
+		font-size: 1.5rem;
+		max-width: 80%;
+		min-height: 100%;
+		max-height: 100%;
+	}
+
+	div.grid-item h2 {
+		-webkit-text-stroke-width: 0.5px;
+		-webkit-text-stroke-color: white;
+		min-width: 100%;
+		margin-top: 2rem;
+		margin-bottom: 1rem;
+		padding: none;
+		font-size: 3rem;
+		font-family: TwoShotsCleanFull;
+		font-weight: normal;
+		line-height: normal;
+		color: white;
+		text-align: center;
+		text-shadow: 5px 5px 10px #201f1f;
+	}
+
+	div.grid-item a img {
+		margin: 0;
+		padding: 0;
+
+		max-width: 100%;
+		min-height: 100%;
+		border-radius: 1.5rem;
+		box-shadow:
+			0 29px 52px rgba(0, 0, 0, 0.4),
+			0 25px 16px rgba(0, 0, 0, 0.2);
+	}
+
+	/* ============================ */
+	/* Grid ELements */
+	/* ============================ */
+
+	img#banner {
+		display: block;
+		position: relative;
+		max-width: 100%;
+		min-height: 100%;
+	}
+
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	input:invalid {
+		color: red;
+		border: red;
+		box-shadow: 0px 0px 5px red;
+	}
+
+	input[type="text"],
+	input[type="email"],
+	select#creditCard {
+		/* background-color: pink; */
+		color: black;
+	}
+
+	div.labelA > img {
+		display: inline-flex;
+		max-width: 100%;
+		min-height: 100%;
+	}
+
+	img.inline-block {
+		display: inline-flex;
+	}
+
+	input[type="text"]:focus,
+	select:active,
+	input[type="email"]:focus,
+	select#creditCard {
+		background-color: pink;
+		border: 5px solid red;
+		max-width: 100%;
+		min-height: 100%;
+	}
+
+	select#creditCard {
+		line-height: normal;
+		border: none;
+		outline: none;
+		max-width: 100%;
+		min-height: 100%;
+	}
+
+	fieldset {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		max-width: 100%;
+		min-height: 100%;
+	}
+
+	fieldset form.formGroup div input,
+	fieldset form.formGroup div select {
+		min-width: 100%;
+		max-width: 100%;
+		min-height: 100%;
+		font-size: 1rem;
+		margin: 0;
+	}
+	form.formGroup {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		min-width: 80%;
+		max-width: 100%;
+		min-height: 100%;
+		margin: 1rem 0rem;
+		padding: 0.5rem;
+		background-color: rgb(180, 59, 7);
+		opacity: 0.8;
+		border-radius: 1rem;
+		box-shadow:
+			10px 10px 35px 0px rgba(0, 0, 0, 0.5),
+			10px 10px 30px 0px rgba(255, 255, 255, 0.347) inset;
+	}
+
+	.formGroup div {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		line-height: 1em;
+		max-width: 100%;
+		min-height: 100%;
+		min-width: 80%;
+		margin: 0;
+	}
+
+	.formGroup div label {
+		color: rgb(255, 255, 255);
+		font-family: TwoShotsCleanFull, Courier, monospace;
+		font-size: 2.5rem;
+		font-weight: normal;
+		line-height: 1em;
+		max-width: 100%;
+		min-height: 100%;
+		min-width: 80%;
+		text-align: left;
+	}
+
+	.formGroup div input,
+	.formGroup div select {
+		font-size: 2.5rem;
+		height: auto;
+		padding: 1rem;
+		margin: 1rem;
+		line-height: 1rem;
+		text-align: left;
+		color: rgb(180, 59, 7);
+		font-weight: normal;
+		max-width: 100%;
+		min-height: 100%;
+	}
+
+	select#country,
+	select.creditCard,
+	input#email,
+	input#lname,
+	input#fname,
+	input#creditCardNumber,
+	input#cscNumber,
+	select#cardYear,
+	select#cardMonth {
+		border-radius: 0.5rem;
+		max-width: 100%;
+		min-height: 100%;
+		margin: 0;
+		padding: 1rem 0rem 1rem 0rem;
+	}
+
+	.submitButton input[type="submit"] {
+		border-radius: 1rem;
+		border: none;
+		color: rgb(180, 59, 7);
+		font-family: TwoShotsCleanFull, Courier, monospace;
+		font-size: 3rem;
+		font-weight: normal;
+		line-height: 1em;
+
+		max-width: 100%;
+		min-height: 100%;
+
+		text-align: center;
+
+		margin-top: 1rem;
+		padding: 1rem;
+	}
+
+	/*
+   New Perspectives on HTML and CSS, 8th Edition
+   Tutorial 7
+   Review Assignment
+
+   Customer Information Form Style Sheet
+
+   Filename: rb_forms2.css
+
+*/
+
+	/* Form Layout Styles */
+
+	form {
+		display: flex;
+		flex-flow: row wrap;
+		max-width: 100%;
+		min-height: 100%;
+	}
+
+	fieldset {
+		display: block;
+		align-items: center;
+		border: none;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		min-width: 90%;
+		max-width: 90%;
+		min-height: 100%;
+		margin: auto;
+	}
+
+	legend {
+		color: rgb(63, 61, 61);
+		background-color: rgb(255, 255, 255);
+		line-height: 1rem;
+		font-size: 1.5rem;
+		padding: 1rem;
+		max-width: 100%;
+		min-height: 100%;
+	}
+
+	label {
+		display: inline-block;
+		max-width: 100%;
+		min-height: 100%;
+		font-size: 3rem;
+	}
+
+	div.labelA img {
+		display: flex;
+		flex-direction: row;
+		max-width: 100%;
+		min-height: 100%;
+	}
+
+	img[src="dozen.png"] {
+		display: inline-block;
+		margin-left: 135px;
+	}
+
+	fieldset#soapAmount label,
+	fieldset#deliveryInfo label {
+		margin-bottom: 1rem;
+		flex: 1;
+		line-height: 0.75rem;
+		max-width: 100%;
+		min-height: 100%;
+	}
+
+	textarea {
+		display: block;
+		max-width: 100%;
+		min-height: 100%;
+	}
+
+	div.submit-button input[type="submit"] {
+		max-width: 100%;
+		min-height: 100%;
+		color: #000000;
+		background-color: rgb(180, 59, 7);
+		box-shadow:
+			rgba(0, 0, 0, 0.25) 0px 54px 55px,
+			rgba(0, 0, 0, 0.12) 0px -12px 30px,
+			rgba(0, 0, 0, 0.12) 0px 4px 6px,
+			rgba(0, 0, 0, 0.17) 0px 12px 13px,
+			rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	}
+	input input#sizeBox {
+		max-width: 100%;
+		min-height: 100%;
+	}
+}

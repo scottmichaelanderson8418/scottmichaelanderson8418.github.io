@@ -1,0 +1,20 @@
+#!/bin/bash
+#!/bin/bash
+
+# Set the base filename
+base_filename="8oz-Ground-Oats-And_Honey_"
+
+# Initialize the counter
+counter=1
+
+# Loop through all files in the current directory
+for file in *; do
+  # Construct the new filename
+  new_filename="${base_filename}${counter}.jpeg"
+
+  # Rename the file
+  mv "$file" "$new_filename"
+
+  # Increment the counter
+  ((counter++))
+done

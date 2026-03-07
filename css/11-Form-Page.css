@@ -1,0 +1,207 @@
+@charset "utf-8";
+
+/* Fonts */
+@font-face {
+	font-family: "TwoShotsCleanFull";
+	src: url("Vozzy - Two Shots Clean Full.WOFF2") format("woff2");
+}
+@font-face {
+	font-family: "TwoShotsCleanFullOTF";
+	src: url("Vozzy - Two Shots Clean Full.otf") format("oft");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.img-gallery {
+	width: 100%;
+	margin: 100px auto 50px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 30px;
+}
+
+.full-img {
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0, 0.9);
+	position: fixed;
+
+	top: 0;
+	left: 0;
+	display: none;
+	align-items: center;
+	justify-content: center;
+}
+
+.img-gallery img {
+	width: 100%;
+	cursor: pointer;
+	border-radius: 0.5rem;
+	max-width: 800px;
+}
+
+.full-img img {
+	width: 90%;
+	min-width: 100%;
+	max-width: 100%;
+	border-radius: 0.5rem;
+}
+
+.full-img span {
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	font-size: 30px;
+	color: #fff;
+}
+
+.img-gallery img:hover {
+	/* transform: scale(0.8) rotate(-15deg); */
+
+	box-shadow: 10px 10px 10px rgba(245, 245, 245, 0.5);
+}
+
+div#fullImgBox.full-img {
+	background-color: rgba(0, 0, 0, 0.9);
+	/* background-color: black; */
+	z-index: 2;
+}
+.title {
+	grid-area: header;
+}
+.pictures {
+	grid-area: menu;
+}
+.body {
+	grid-area: main;
+}
+
+.footer {
+	grid-area: footer;
+}
+
+.grid-container {
+	display: grid;
+	line-height: 3rem;
+	grid-template-areas:
+		"header header header header header header"
+		"menu main main main main main"
+		"menu footer footer footer footer footer";
+	gap: 10px;
+	/* background-color: #2196f3; */
+	padding: 10px;
+}
+
+div > p {
+	margin: 2rem;
+}
+div.soap-details > div > h2 {
+	text-align: left;
+	letter-spacing: 5px; /* Adjust the value as needed */
+
+	text-align: center;
+	font-family: TwoShotsCleanFull;
+	text-shadow: 2px 2px 2px #201f1f;
+	font-size: 2vw;
+	-webkit-text-stroke-width: 1.5px;
+	-webkit-text-stroke-color: white;
+	text-shadow: 8px 8px 20px black;
+	font-weight: normal;
+	color: #ffffff;
+	line-height: normal;
+	min-width: 100%;
+	margin: 1rem;
+}
+div.soap-details > div.ingredients-list > h2 {
+	/* border: solid 5px yellow; */
+	text-align: left;
+
+	letter-spacing: 5px; /* Adjust the value as needed */
+
+	text-align: center;
+	font-family: TwoShotsCleanFull;
+	text-shadow: 2px 2px 2px #201f1f;
+	font-size: 3vw;
+	-webkit-text-stroke-width: 1.5px;
+	-webkit-text-stroke-color: white;
+	text-shadow: 8px 8px 20px black;
+	font-weight: normal;
+	color: #ffffff;
+	line-height: normal;
+	min-width: 100%;
+	/* margin: 1rem; */
+}
+
+div.title h1 {
+	letter-spacing: 5px; /* Adjust the value as needed */
+
+	text-align: center;
+	font-family: TwoShotsCleanFull;
+	text-shadow: 5px 5px 10px #201f1f;
+	font-size: 8rem;
+	-webkit-text-stroke-width: 1.5px;
+	-webkit-text-stroke-color: white;
+	text-shadow: 8px 8px 20px black;
+	font-weight: normal;
+	color: #ffffff;
+	line-height: normal;
+	min-width: 100%;
+	margin-top: 5rem;
+}
+div.button {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+div.button a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 2rem;
+	text-decoration: none;
+	font-family: TwoShotsCleanFull;
+	line-height: normal;
+	/* text-shadow: 5px 5px 10px #201f1f; */
+	font-size: 5rem;
+	-webkit-text-stroke-width: 1.5px;
+	-webkit-text-stroke-color: white;
+	text-shadow: 2px 2px 20px rgb(78, 77, 77);
+	font-weight: normal;
+	color: #ffffff;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	background-color: rgba(73, 58, 49, 0.8);
+	border-radius: 1.5rem;
+	text-align: center;
+}
+div.ingredients-list {
+	margin: 2rem;
+	text-align: left;
+}
+
+div.ingredients-list ul {
+	display: flex;
+	justify-content: left;
+	flex-direction: column;
+}
+
+div.ingredients-list ul li {
+	display: block;
+	flex: 1;
+	text-align: left;
+	/* border: solid 5px yellow; */
+}
+div.soap-details {
+	border: solid 5px white;
+	margin: 5rem;
+}
+div.soap-details div p {
+	/* border: solid 5px white; */
+	margin: 2rem;
+}

@@ -1,0 +1,250 @@
+@charset "utf-8";
+@media only screen and (min-width: 480px) {
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	input:invalid {
+		color: red;
+		border: red;
+		box-shadow: 0px 0px 5px red;
+	}
+
+	input[type="text"],
+	input[type="email"],
+	select#creditCard {
+		/* background-color: pink; */
+		color: black;
+	}
+
+	div.labelA > img {
+		display: inline-flex;
+		max-width: 100%;
+		min-height: 100%;
+	}
+
+	img.inline-block {
+		display: inline-flex;
+	}
+
+	input[type="text"]:focus,
+	select:active,
+	input[type="email"]:focus,
+	select#creditCard {
+		background-color: pink;
+
+		max-width: 100%;
+		min-height: 100%;
+	}
+
+	select#creditCard {
+		line-height: normal;
+		border: none;
+		outline: none;
+		max-width: 100%;
+		min-height: 100%;
+	}
+
+	fieldset {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		max-width: 100%;
+		min-height: 100%;
+	}
+
+	fieldset form.formGroup div input,
+	fieldset form.formGroup div select {
+		min-width: 80%;
+		max-width: 100%;
+		min-height: 100%;
+		font-size: 2rem;
+		padding: 0.5rem;
+	}
+	form.formGroup {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		min-width: 80%;
+		max-width: 100%;
+		min-height: 100%;
+		margin: 1rem 0rem;
+		padding: 1rem;
+		background-color: rgb(180, 59, 7);
+		opacity: 0.8;
+		border-radius: 20px;
+		box-shadow: 10px 10px 35px 0px rgba(0, 0, 0, 0.5), 10px 10px 30px 0px rgba(255, 255, 255, 0.347) inset;
+	}
+
+	.formGroup > div {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		line-height: 1em;
+		min-width: 80%;
+		max-width: 100%;
+		min-height: 100%;
+		padding: 0;
+		padding: 1rem;
+	}
+
+	.formGroup > div label {
+		font-size: 3em;
+
+		max-width: 100%;
+		min-height: 100%;
+		line-height: 1em;
+		text-align: left;
+		color: rgb(255, 255, 255);
+		font-family: TwoShotsCleanFull, Courier, monospace;
+		font-weight: normal;
+	}
+
+	.formGroup > div input,
+	.formGroup > div select {
+		font-size: 1rem;
+		height: auto;
+		padding: 0;
+		margin: 0;
+		line-height: 1rem;
+		text-align: left;
+		color: rgb(180, 59, 7);
+		font-weight: normal;
+		max-width: 100%;
+		min-height: 100%;
+	}
+
+	/* 
+.formInput>div {
+    width: 80%;
+    margin: 100px;
+    padding: 20px;
+
+
+} */
+
+	select#country,
+	select.creditCard,
+	input#email,
+	input#lname,
+	input#fname,
+	input#creditCardNumber,
+	input#cscNumber,
+	select#cardYear,
+	select#cardMonth {
+		border-radius: 5px;
+		padding: 0.5rem;
+		max-width: 100%;
+		min-height: 100%;
+	}
+
+	.submitButton input[type="submit"] {
+		border-radius: 1rem;
+		border: none;
+		color: rgb(180, 59, 7);
+		font-family: TwoShotsCleanFull, Courier, monospace;
+		font-size: 5rem;
+		font-weight: normal;
+		line-height: 1em;
+
+		max-width: 100%;
+		min-height: 100%;
+
+		text-align: center;
+
+		margin: auto;
+		padding: 2rem;
+	}
+
+	/*
+   New Perspectives on HTML and CSS, 8th Edition
+   Tutorial 7
+   Review Assignment
+
+   Customer Information Form Style Sheet
+
+   Filename: rb_forms2.css
+
+*/
+
+	/* Form Layout Styles */
+
+	form {
+		display: flex;
+		flex-flow: row wrap;
+		max-width: 100%;
+		min-height: 100%;
+	}
+
+	fieldset {
+		display: block;
+		align-items: center;
+		border: none;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		min-width: 90%;
+		max-width: 90%;
+		min-height: 100%;
+		margin: auto;
+	}
+
+	legend {
+		color: rgb(63, 61, 61);
+		background-color: rgb(255, 255, 255);
+		line-height: 1rem;
+		font-size: 1.5rem;
+		padding: 1rem;
+		max-width: 100%;
+		min-height: 100%;
+	}
+
+	label {
+		display: inline-block;
+		max-width: 100%;
+		min-height: 100%;
+	}
+
+	div.labelA img {
+		display: flex;
+		flex-direction: row;
+		max-width: 100%;
+		min-height: 100%;
+	}
+
+	img[src="dozen.png"] {
+		display: inline-block;
+		margin-left: 135px;
+	}
+
+	fieldset#soapAmount label,
+	fieldset#deliveryInfo label {
+		margin-bottom: 1rem;
+		flex: 1;
+		line-height: 0.75rem;
+		max-width: 100%;
+		min-height: 100%;
+	}
+
+	textarea {
+		display: block;
+		max-width: 100%;
+		min-height: 100%;
+	}
+
+	div.submit-button input[type="submit"] {
+		max-width: 100%;
+		min-height: 100%;
+		color: #000000;
+		background-color: rgb(180, 59, 7);
+		box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+			rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	}
+	input input#sizeBox {
+		max-width: 100%;
+		min-height: 100%;
+	}
+}

@@ -1,0 +1,109 @@
+@charset "utf-8";
+/*
+================================
+Tablet Styles: 481px and greater
+================================
+*/
+@media only screen and (min-width: 481px) {
+	/* ============================ */
+	/* Grid ELements */
+	/* ============================ */
+
+	* {
+		padding: none;
+		padding: 0;
+	}
+
+	/* section.gridContainer {
+		display: grid;
+		position: relative;
+		min-width: 320px;
+		max-width: 1024px;
+		min-height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		grid-template-columns: 200px 200px 200px 1fr;
+		grid-template-rows: 400px 1fr 1fr 1fr;
+		justify-content: space-around;
+		grid-gap: 5px;
+		position: relative;
+		z-index: 1;
+	} */
+
+	/* article#sheaButterDescription {
+		grid-column: 1 / span 4;
+		grid-row: 1 span 4;
+		min-width: 100%;
+		min-height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 10px;
+		line-height: normal;
+	}
+
+	article#sheaButter {
+		grid-column: 3 / span 2;
+		grid-row: 1;
+		max-width: 100%;
+		height: auto;
+		padding: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		line-height: normal;
+	} */
+
+	/* article#sheaButterImage img {
+		max-width: 100%;
+		max-height: 250px;
+		margin-left: auto;
+		margin-right: auto;
+		line-height: normal;
+	}
+
+	article.greenTeaSoapDescription {
+		grid-column: 1 / span 4;
+		grid-row: 3;
+		max-width: 100%;
+		max-height: 400px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 10px;
+		overflow: scroll;
+		line-height: normal;
+	}
+
+	img#greenTeaImage {
+		grid-column: 1 / span 4;
+		grid-row: 3;
+		max-width: 300px;
+		line-height: normal;
+	}
+
+	article#seaGreenSoapDescription {
+		grid-column: 1 / span 2;
+		grid-row: 4;
+		max-width: 100%;
+	
+		margin-left: auto;
+		margin-right: auto;
+		text-align: left;
+		line-height: normal;
+	}
+
+	article#seaGreenImage {
+		grid-column: 1 / span 2;
+		grid-row: 4;
+	
+		max-width: 100%;
+		max-height: auto;
+
+		padding: 20px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	article#seaGreenImage img {
+		max-width: 100%;
+		max-height: 350px;
+	} */
+}

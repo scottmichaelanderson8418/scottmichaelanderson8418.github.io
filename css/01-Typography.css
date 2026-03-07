@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/* Fonts */
+@font-face {
+	font-family: "TwoShotsCleanFull";
+	src: url("/font-files/Vozzy - Two Shots Clean Full.WOFF2") format("woff2");
+}
+@font-face {
+	font-family: "TwoShotsCleanFullOTF";
+	src: url("/font-files/Vozzy - Two Shots Clean Full.otf") format("oft");
+}
+
+/* Typography */
+/* html {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+}
+body {
+	font-size: 20px;
+} */
+ul.horizontal-mainmenu {
+	font-family: TwoShotsCleanFull;
+	font-size: 2.5em;
+	color: white;
+	text-align: center;
+}
+
+/* Text Styles */
+p:first-child {
+	color: white;
+}
+body > section > div > p:first-line {
+	color: white;
+}
+.flex-container-body-01 > div > h1,
+.flexContainerBody-BarSoap > article > div > h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	text-shadow: 8px 8px 20px black;
+}
+
+/* Links */
+a[target="_blank"],
+a[href="#"] {
+	background-color: red;
+}
+a:first-child {
+	color: white;
+}
+
+/* Button Styling */
+button {
+	display: block;
+	margin: auto;
+	border: 5px solid red;
+}
+.dateA button {
+	font-size: 2em;
+	box-shadow: inset 0px 0px 3px black, inset 0px 0px 20px black, 0px 0px 25px black;
+}
